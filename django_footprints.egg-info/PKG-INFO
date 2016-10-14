@@ -1,0 +1,33 @@
+Metadata-Version: 1.1
+Name: django-footprints
+Version: 0.1
+Summary: A simple Django app to track page views.
+Home-page: http://www.bokasolutions.com/django-footprints
+Author: Wayne T. Boka
+Author-email: wayne@bokasolutions.com
+License: MIT License
+Description: =====
+        Footprints
+        =====
+        
+        Footprints is a simple Django app to record page access.
+        
+        Quick start
+        -----------
+        0. Add "'footprints'" to your INSTALLED_APPS setting like this:
+            INSTALLED_APPS = [        ...        'footprints',    ]
+        1. Add "'footprints.middleware.footprints_middleware.FootprintMiddleware'" to your MIDDLEWARE
+        2. Run `python manage.py migrate` to create the footprints models.
+        3. Start the development server and visit http://127.0.0.1:8000/admin/   to view a accessed pages (you'll need the Admin app enabled).
+        4. Visit http://127.0.0.1:8000/ to record page access.
+        
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 1.10
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content

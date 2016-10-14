@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+footprints/__init__.py
+footprints/admin.py
+footprints/models.py
+footprints/tests.py
+footprints.egg-info/PKG-INFO
+footprints.egg-info/SOURCES.txt
+footprints.egg-info/dependency_links.txt
+footprints.egg-info/top_level.txt
+footprints/middleware/__init__.py
+footprints/middleware/footprints_middleware.py
+footprints/migrations/0001_initial.py
+footprints/migrations/__init__.py

@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+django_footprints.egg-info/PKG-INFO
+django_footprints.egg-info/SOURCES.txt
+django_footprints.egg-info/dependency_links.txt
+django_footprints.egg-info/top_level.txt
+footprints/__init__.py
+footprints/admin.py
+footprints/models.py
+footprints/tests.py
+footprints/middleware/__init__.py
+footprints/middleware/footprints_middleware.py
