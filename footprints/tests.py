@@ -3,7 +3,6 @@ from .models import Footprint
 
 class FootprintTestCase(TestCase):
 	def setUp(self):
-		test_request = (method='GET', scheme='http', path='/', username='AnonymousUser')
 		Footprint.objects.create(ip='0.0.0.0', method='GET', scheme='http', path='/', username='AnonymousUser')
 
 	def test_footprints_left(self):
