@@ -5,6 +5,7 @@ register = template.Library()
 
 @register.simple_tag
 def get_hits(page):
-    footprints_by_path = Footprint.objects.filter(path=page)
+    all_hits = Footprint.objects.all()
+    filtered_hits = all_hits.filter(path=page)
     
-    return footprints_by_path.count()
+    return "{0} / {1}".format(filtered_hits.count(), all_hits.count()
