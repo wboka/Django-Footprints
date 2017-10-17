@@ -4,8 +4,13 @@ from .models import Footprint
 register = template.Library()
 
 @register.simple_tag
-def get_hits(page):
-    all_hits = Footprint.objects.all()
-    filtered_hits = all_hits.filter(path=page)
-    
-    return '{0} / {1}'.format(filtered_hits.count(), all_hits.count()
+def get_all_hits():
+	all_hits = Footprint.objects.all()
+
+	return all_hits.count()
+
+@register.simple_tag
+def get_page_hits(page):
+    filtered_hits = Footprint.objects.filter(path=page)
+
+    return filtered_hits.count()

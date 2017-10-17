@@ -9,15 +9,15 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
 	name='django-footprints',
-	version='0.1',
+	version='0.2',
 	packages=find_packages(),
 	include_package_data=True,
 	license='MIT License',
 	description='A simple Django app to track page views.',
 	long_description=README,
-	url='http://www.bokasolutions.com/django-footprints',
-	author='Wayne T. Boka',
-	author_email='wayne@bokasolutions.com',
+	url='NA',
+	author='Wayne Boka',
+	author_email='boka.wayne@gmail.com',
 	classifiers=[
 		'Environment :: Web Environment',
 		'Framework :: Django',

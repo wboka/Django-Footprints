@@ -1,10 +1,10 @@
 Metadata-Version: 1.1
 Name: django-footprints
-Version: 0.1
+Version: 0.2
 Summary: A simple Django app to track page views.
-Home-page: http://www.bokasolutions.com/django-footprints
-Author: Wayne T. Boka
-Author-email: wayne@bokasolutions.com
+Home-page: NA
+Author: Wayne Boka
+Author-email: boka.wayne@gmail.com
 License: MIT License
 Description: =====
         Footprints
